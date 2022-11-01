@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+    font-family: helvetica;
+}
+
+:root {
+  --black: #000000;
+  --grey: #efefef;
+  --darkgrey: #a9a9a9; 
+  --white: #ffffff;
+  --dark: #06283D;
+  --darkblue: #1363DF;
+  --lightblue: #47B5FF;
+  --whiteblue: #DFF6FF;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: var(--lightblue);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: var(--whiteblue);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left, .footer-logo {
+  float: left;
+}
+
+.header-right, .footer-list {
+  float: right;
+}
+
+.header-right a, .footer-list li  {
+  line-height: 65px;
+  padding: 0 25px;
+  color: var(--dark);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a.signup {
+  background-color: var(--dark);
+  color: var(--whiteblue);
+}
+
+.header-right a:hover {
+  background-color: var(--white);
+}
+
+.header-right a.signup:hover {
+  background-color: var(--lightblue);    
+}
+
+span.menu-icon {
+  display:none;
+}
+
+/* Contents */
+.contents {
+ padding: 100px 0;
+}
+
+/* Flex */
+.flex-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-list li {
+  flex: auto;
+}
+
+
+ul.flex-list {
+  grid-gap: 10px;
+  gap:10px;
+  padding:0;
+  list-style: none;
+  margin: 0px;
+}
+
+.flex-list li {
+  flex-basis: 20%;
+  padding: 20px;
+  color: var(--dark);
+  overflow-wrap: break-word;
+}
+
+.flex-list li h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.flex-list li h3 {
+  margin: 0;
+  color: var(--darkgrey);
+  font-size: 15px;
+  font-weight: normal;
+}
+
+.job-details {
+    margin: 10px 0;
+}
+
+i.fa {
+    color: var(--darkgrey);
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+span.job-meta{
+    color: var(--darkgrey);
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.post-excerpt p {
+    line-height: 1.4;
+    font-size: 15px;
+}
+
+.job-list {
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  height: 65px;
+  width: 100%;
+  background-color: var(--white);
+  top: 0;
+  z-index: 10;
+  border-top:1px solid var(--grey);
+}
+
+.footer {
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-list ul {
+    margin: 0;
+}
+
+.footer-list ul li {
+    display: inline-block;
+    list-style: none;
+}
+
