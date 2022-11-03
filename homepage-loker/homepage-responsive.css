@@ -1,0 +1,95 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper .left h1,
+  .middle-wrapper .right h1,
+  .about-us h2 {
+    font-size: 20px;
+  }
+  .top-wrapper .left,
+  .middle-wrapper .right {
+    width: 70%;
+  }
+  .btn-wrapper,
+  .btn2-wrapper {
+    width: 45%;
+  }
+
+  .flex-list {
+    flex-wrap: wrap;
+  }
+  .flex-list li {
+    flex-basis: 40%;
+  }
+  .about-us .container {
+    width: 65%;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper .container,
+  .middle-wrapper .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+  }
+  .top-wrapper .left,
+  .middle-wrapper .right {
+    width: 78%;
+  }
+  .top-img {
+    width: 78%;
+    margin-top: 10px;
+  }
+
+  .middle-img {
+    width: 50%;
+  }
+  .btn,
+  .btn2 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  span.menu-icon {
+    color: var(--dark);
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: block;
+  }
+
+  .flex-list {
+    flex-direction: column;
+  }
+
+  .flex-list li {
+    flex-basis: 100%;
+    margin: auto;
+  }
+
+  .header-right {
+    margin-top: -2px;
+    width: 100%;
+  }
+
+  .header-right a {
+    background: #fff;
+    width: 100%;
+  }
+  .about-us .container {
+    width: 75%;
+  }
+}
